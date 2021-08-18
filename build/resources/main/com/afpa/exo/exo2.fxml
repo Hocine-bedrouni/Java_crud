@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onMouseDragged="#boiteselectfourni" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.afpa.exo.Exo2Controller">
+   <children>
+      <Label layoutX="52.0" layoutY="85.0" prefHeight="17.0" prefWidth="115.0" text="Choix du fournisseur" />
+      <ComboBox fx:id="combobox" layoutX="210.0" layoutY="81.0" onAction="#boiteselectfourni" prefHeight="25.0" prefWidth="284.0" promptText="Choisissez" />
+      <TextArea fx:id="textarea" layoutX="64.0" layoutY="151.0" onDragDetected="#boiteselectfourni" prefHeight="200.0" prefWidth="472.0" />
+   </children>
+</AnchorPane>

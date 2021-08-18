@@ -20,7 +20,7 @@ public class Main  extends Application {
 
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("menu.fxml")));
 
-
+// boujour
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
